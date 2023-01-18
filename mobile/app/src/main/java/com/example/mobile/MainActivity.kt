@@ -33,11 +33,16 @@ class MainActivity : AppCompatActivity() {
         return when (item.itemId) {
             R.id.repay_menu_show -> {
                 val transAction = supportFragmentManager.beginTransaction()
+                transAction.replace(R.id.repay_recyclerview_fragment_container, RepayRecyclerViewShowFragment())
+                transAction.commit()
+                true
+            }
+            R.id.repay_add_item -> {
+                val transAction = supportFragmentManager.beginTransaction()
                 transAction.replace(R.id.repay_recyclerview_fragment_container, AddItemFragment())
                 transAction.commit()
                 true
             }
-            R.id.repay_add_item -> true
             else -> return super.onOptionsItemSelected(item)
         }
     }
