@@ -1,0 +1,31 @@
+buildscript {
+    repositories {
+        // Check that you have the following line (if not, add it):
+        google()  // Google's Maven repository
+        mavenCentral()  // Maven Central repository
+    }
+    dependencies {
+        classpath 'com.google.gms:google-services:4.3.13'
+        classpath 'com.android.tools.build:gradle:3.2.1'
+    }
+    ext {
+        kotlin_version = "1.5.0"
+        lifecycle_version = '2.5.1'
+        nav_version = '2.3.5'
+        room_version = '2.3.0'
+        arch_version = "2.1.0"
+    }
+}
+
+//allprojects {
+//    repositories {
+//        google()
+//        mavenCentral()
+//    }
+//}
+
+plugins {
+    id 'com.android.application' version '7.3.1' apply false
+    id 'com.android.library' version '7.3.1' apply false
+    id 'org.jetbrains.kotlin.android' version '1.7.20' apply false
+}

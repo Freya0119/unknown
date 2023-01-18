@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "978208981930",
+    "project_id": "repay-b7ecf",
+    "storage_bucket": "repay-b7ecf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978208981930:android:3bce1a4f1c7c2077b121d3",
+        "android_client_info": {
+          "package_name": "com.example.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978208981930-1g5edbvci6sce530g45ppaalh2frggan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8b0h2NZjtpJyWWuxSpUSvRci_Romcsx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978208981930-1g5edbvci6sce530g45ppaalh2frggan.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
